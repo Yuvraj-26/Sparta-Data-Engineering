@@ -36,7 +36,6 @@ sudo apt-get install python3.10
 ```shell
 git clone https://github.com/Yuvraj-26/Sparta-Data-Engineering.git
 ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Usage
 
@@ -53,12 +52,12 @@ If you have a suggestion that would make this better, please fork the repo and c
 4. Push to the Branch (`git push origin feature/newFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <!-- LICENSE -->
 ## License
 
 Anyone is free to copy, modify, use, or compile this software. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Contact
+
+Yuvraj M - [yuvrajmahida](https://www.linkedin.com/in/yuvrajmahida/) - 2604yuvraj@gmail.com
+
