@@ -70,9 +70,9 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 Anyone is free to copy, modify, use, or compile this software. See `LICENSE.txt` for more information.
 
-<a href="#top">Back to Top</a>
-
 ## Contact
 
 Yuvraj M - [yuvrajmahida](https://www.linkedin.com/in/yuvrajmahida/) - 2604yuvraj@gmail.com
+
+<a href="#top">Back to Top</a>
 
