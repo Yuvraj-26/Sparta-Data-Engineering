@@ -1,5 +1,16 @@
 # Sparta Data Engineering Projects
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Technology Used](#technology-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Cloning the Repository](#cloning-the-repository)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ## Introduction
 
