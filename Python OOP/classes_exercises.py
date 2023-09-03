@@ -103,7 +103,7 @@ print("\nQ2b\n")
 # by both 3 and 4 using the divisible_by_n method above
 
 # A2b:
-# Create an empty list for new list of prime numbers
+# Create an empty list for new list numbers divisible by both three and four
 divisible_by_three_and_four = []
 # iterate through each num
 for num in list_of_numbers:
