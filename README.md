@@ -55,11 +55,11 @@ git clone https://github.com/Yuvraj-26/Sparta-Data-Engineering.git
 
 ## Usage
 
-| File             | Description                 |
+| Projects            | Description                 |
 |---------------------|-----------------------------|
-| `python functios.py`    | /         |
-| `python controlflow.py`   | //       |
-| `python python_oop.py`   | ///       |
+| `python functios.py`    |        |
+| `python controlflow.py` |        |
+| `python python_oop.py`  |        |
 
 
 
