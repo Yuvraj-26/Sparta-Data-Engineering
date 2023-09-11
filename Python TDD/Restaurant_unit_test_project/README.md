@@ -12,8 +12,6 @@ User stories play a pivotal role in our project, and they are created and manage
 [Link to the Trello Project Board](https://trello.com/invite/b/5dcjGLdw/ATTI374fe2501ca03bb3179c5c0d4029944711043A01/kanban-restaurant-user-stories)
 
 
-
-
 ## Files
 
 `main.py`
@@ -57,7 +55,7 @@ The class has several methods for the required functionality.
 - A `get_total` method that accepts a service charge percentage in the form of a decimal. It calculates the total bill, inclusive of a service charge (defaulting to 10% i.e. `0.10`).  This method returns a dictionary with the following keys: `Sub Total`, `Service Charge`, `Total`.  The values are each string representations of the corresponding prices in British pounds and pence.  e.g. `{"Sub Total": "£120.00", "Service Charge": "£12.00", "Total": "£132.00"}`
 - A `split_bill` method, which computes and returns the the subtotal cost of the bill divided by the number of diners as a float rounded up to the nearest penny.
 
-# Contact
+## Contact
 
 Yuvraj M - [yuvrajmahida](https://www.linkedin.com/in/yuvrajmahida/) - 2604yuvraj@gmail.com
 
