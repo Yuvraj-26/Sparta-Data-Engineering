@@ -9,7 +9,8 @@ This project is centred around the utilisation of the Kanban framework to effici
 
 User stories play a pivotal role in our project, and they are created and managed within Trello, the chosen platform for agile project management and collaboration.
 
-Link to the Project Board:
+[Link to the Trello Project Board](https://trello.com/invite/b/5dcjGLdw/ATTI374fe2501ca03bb3179c5c0d4029944711043A01/kanban-restaurant-user-stories)
+
 
 
 
