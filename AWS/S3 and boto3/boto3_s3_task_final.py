@@ -4,9 +4,8 @@ import json
 import pandas as pd
 import io
 
-# Initialize S3 clients
+# Initialise S3 client
 s3_client = boto3.client('s3')
-s3_resource = boto3.resource('s3')
 
 
 def read_csv_from_s3(bucket_name, object_key):
@@ -41,23 +40,29 @@ def upload_csv_to_s3(df, bucket_name, s3_destination_key):
 
 
 if __name__ == "__main__":
-    # State the bucket name and list of csv files
+    # Specify the bucket name and list of csv files
     bucket_name = 'data-eng-resources'
     csv_files = ['fish-market-mon.csv', 'fish-market-tues.csv', 'fish-market.csv']
 
-    # Initialize an empty DataFrame to store the fish data of all csv files
+    # Initialise an empty DataFrame to store the fish data of all csv files
     df = pd.DataFrame()
 
-    # Iterate through each csv file and process
+    # Iterate through each csv file
     for csv_file in csv_files:
         # Create the object key for the current csv file
         object_key = f'python/{csv_file}'
 
-        # Read the fish market csv data from S3 using function
+        # Read the fish market csv data from S3 using the read function
         df_new = read_csv_from_s3(bucket_name, object_key)
-        # Call to the remaining functions
+
+        # Transform the Data by calling to the transform function
         df_transformation = transform_csv_data(df_new)
+
+        # Concatenate the DataFrames
         df = pd.concat([df, df_transformation])
+
+    # Calculate the overall average for each species
+    df = df.groupby('Species').mean().reset_index()
 
     print("\nTransformed DataFrame:")
     print(df)

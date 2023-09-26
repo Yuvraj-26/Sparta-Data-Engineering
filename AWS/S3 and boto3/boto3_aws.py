@@ -52,12 +52,12 @@ s3_object = s3_client.get_object(Bucket=bucket_name, Key='python/happiness-2019.
 
 dict_to_upload = {'name': 'data', 'status': 1}
 
-# Adds an object to a bucket. Must have Write permissions on a bucket to add an object to it.
+# Adds an object to a bucket. Must have Write permissions on a bucket to add an object to it
 # This method allows you to convert a python object into a serialized JSON object
 s3_client.put_object(Body=json.dumps(dict_to_upload), Bucket=bucket_name, Key="Test249/y.json")
 
-# Upload using file The upload_file method accepts a file name, a bucket name, and an object name. The method handles
-# large files by splitting them into smaller chunks and uploading each chunk in parallel
+# Upload using file The upload_file method accepts a file name, a bucket name, and an object name
+# The method handles large files by splitting them into smaller chunks and uploading each chunk in parallel
 s3_client.upload_file(Filename='new_json.json',
                       Bucket=bucket_name,
                       Key='Test249/y1.json')
